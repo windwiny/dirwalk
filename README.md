@@ -1,6 +1,6 @@
-# Dirwalk
+# Dir::walk
 
-Dir::walk, like python os.walk
+Ruby Dir::walk, like Python os.walk
 
 ## Installation
 
@@ -18,10 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-require 'gemwalk'
-Dir.walk('.') do |p, ds, fs|
-  ...
-end
+    require 'dirwalk'
+    Dir.walk('.') do |x,y,z|
+      p [x,y,z]
+    end
 
 ## Contributing
 
