@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Dirwalk::VERSION
   spec.authors       = ["windwiny"]
   spec.email         = ["windwiny.ubt@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Dir::walk, like python os.walk}
+  spec.summary       = %q{Dir::walk}
+  spec.homepage      = "https://github.com/windwiny/dirwalk.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

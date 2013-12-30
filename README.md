@@ -1,6 +1,6 @@
 # Dirwalk
 
-TODO: Write a gem description
+Dir::walk, like python os.walk
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'gemwalk'
+Dir.walk('.') do |p, ds, fs|
+  ...
+end
 
 ## Contributing
 
